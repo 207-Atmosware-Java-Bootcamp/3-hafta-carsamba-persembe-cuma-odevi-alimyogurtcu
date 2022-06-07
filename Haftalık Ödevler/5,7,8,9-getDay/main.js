@@ -22,7 +22,7 @@ var day = new Date().getDay();
     case 6:
       document.write("Immedia Function: Bugün cumartesi");
       break;
-    case 7:
+    case 0:
       document.write("Immedia Function: Bugün pazar");
       break;
   }
@@ -52,7 +52,7 @@ var currentDay = (day) => {
     case 6:
       document.write("Arrow Function: Bugün cumartesi");
       break;
-    case 7:
+    case 0:
       document.write("Arrow Function: Bugün pazar");
       break;
   }
@@ -84,7 +84,7 @@ let currentDay2 = function (day){
     case 6:
       document.write("Anonymous Function: Bugün cumartesi");
       break;
-    case 7:
+    case 0:
       document.write("Anonymous Function: Bugün pazar");
       break;
   }
